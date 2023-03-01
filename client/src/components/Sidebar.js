@@ -20,9 +20,9 @@ export default function Sideabar() {
     return (
         <div className='sidebar'>
             <p>side bar</p>
-            {/* <Link to="/">
+            <Link to="/">
                 <Icon styles="w-[52px] h-[52px] bg-[#2c2f32]" imgUrl={logo} />
-            </Link> */}
+            </Link>
 
             <div className="">
                 <div className="">
@@ -41,7 +41,7 @@ export default function Sideabar() {
                     ))}
                 </div>
 
-                {/* <Icon styles="bg-[#1c1c24] shadow-secondary" imgUrl={sun} /> */}
+                <Icon styles="bg-[#1c1c24] shadow-secondary" imgUrl={sun} />
             </div>
         </div>
     )

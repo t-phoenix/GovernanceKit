@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-// import { Home } from './pages';
 import Home from './pages/Home.js'
 import CreateDAO from './pages/CreateDAO';
 import Sidebar from './components/Sidebar';

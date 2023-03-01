@@ -10,10 +10,11 @@
 
 .sidebar {
   height: 95vh;
-  width: 10vw;
+  width: 8vw;
   display: flex;
   flex-direction: column;
   background-color: blueviolet;
+  margin-inline: 8%;
 }
 
 
@@ -29,8 +30,14 @@
 
 .navbar {
   height: 10vh;
-  width: 90vw;
+  width: 84vw;
   background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2%;
+  
 }
 
 
