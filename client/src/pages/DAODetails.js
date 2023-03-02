@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import '../styles/homestyle.css';
 import FormField from '../components/FormField';
 import {proposals} from '../constants';
 
 export default function DAODetails() {
 
-    const { state } = useLocation()
+    const { state } = useLocation();
+    const navigate = useNavigate();
 
     const [transferForm, setTransferForm] = useState({
         amount: ''
@@ -32,10 +33,10 @@ export default function DAODetails() {
                     <p>Timelock: {state.timelockAddress}</p>
                 </div>
                 <div>
-                    <button>
+                    <button onClick={()=>navigate('/dao-settings')}>
                         Settings
                     </button>
-                    <button>
+                    <button onClick={()=>navigate('/create-proposal')}>
                         Create Proposal
                     </button>
                 </div>

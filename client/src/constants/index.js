@@ -116,5 +116,12 @@ export const proposals = [
     end: 16432143,
     status: 'defeated',
     description: "Fund 500 tokens for Marketing ",
+  },
+  {
+    id: '0x893dhwa59f7b182a8942e09f4696da0b08c7219e739111b6c6f6ed39wdwq',
+    start: 15318316,
+    end: 16631319,
+    status: 'defeated',
+    description: "Fund 200 tokens for Development ",
   }
 ] 

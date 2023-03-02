@@ -10,6 +10,8 @@ import CreateCrowdsale from './pages/CreateCrowdsale';
 import DAOScreen from './pages/DAOScreen';
 import DAODetails from './pages/DAODetails';
 import CreateDAO from './pages/CreateDAO';
+import CreateProposal from './pages/CreateProposal';
+import DAOSettings from './pages/DAOSettings';
 
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
@@ -37,6 +39,8 @@ function App() {
             <Route path="/dao" element={<DAOScreen />} />
             <Route path="/dao-details/:id" element={<DAODetails />}/>
             <Route path="/create-dao" element={<CreateDAO />}/>
+            <Route path="/create-proposal" element={<CreateProposal />}/>
+            <Route path="dao-settings" element={<DAOSettings/>}/>
           </Routes>
         
       </div>
