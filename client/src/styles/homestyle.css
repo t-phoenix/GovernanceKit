@@ -1,0 +1,79 @@
+.main-content {
+    height: 85vh;
+    width: 87.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(95, 208, 249);
+  }
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.single-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    padding: 8px;
+    width: 33%;
+    height: 25vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 16px;
+}
+.token-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    margin: 24px;
+    padding: 8px;
+    width: 33%;
+    height: 25vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 16px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.function-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:start;
+    margin: 24px;
+    padding: 8px;
+    width: 50%;
+    height: 60%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(92, 67, 67);
+    border-radius: 16px;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(166, 166, 190);
+}

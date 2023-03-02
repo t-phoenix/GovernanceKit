@@ -19,15 +19,18 @@ export default function Sideabar() {
     const [isActive, setIsActive] = useState('dashboard');
     return (
         <div className='sidebar'>
-            <p>side bar</p>
+            <p></p>
             <Link to="/">
                 <Icon styles="w-[52px] h-[52px] bg-[#2c2f32]" imgUrl={logo} />
             </Link>
 
+            <p></p>
+
             <div className="">
-                <div className="">
+                <div className="sidebar-nav">
                     {navlinks.map((link) => (
                         <Icon
+                            className = "side-icons"
                             key={link.name}
                             {...link}
                             isActive={isActive}

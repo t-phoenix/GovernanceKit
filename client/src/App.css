@@ -26,6 +26,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color:coral;
 }
 
 .navbar {
@@ -39,6 +40,22 @@
   padding-inline: 2%;
   
 }
+
+.sidebar-nav {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.side-icons {
+  height: 2vh;
+  padding: 20px
+}
+
+
 
 
 
