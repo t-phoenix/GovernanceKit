@@ -4,8 +4,25 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
-  background-color: aquamarine;
+  /* background-color: rgb(224, 34, 34); */
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.36);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+}
+
+.title{
+  margin: 2px;
+
+}
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+
 }
 
 .sidebar {
@@ -13,10 +30,13 @@
   width: 8vw;
   display: flex;
   flex-direction: column;
-  background-color: blueviolet;
+  
   margin-inline: 8%;
 }
 
+.logo {
+  height: 5%;
+}
 
 
 .content {
@@ -26,13 +46,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color:coral;
+  
 }
 
 .navbar {
   height: 10vh;
   width: 84vw;
-  background-color: aqua;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -53,6 +73,11 @@
 .side-icons {
   height: 2vh;
   padding: 20px
+}
+
+.icon-title {
+  margin: 0px;
+  font-size: 12px;
 }
 
 

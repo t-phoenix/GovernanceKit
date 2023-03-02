@@ -1,4 +1,5 @@
 import './App.css';
+import startup from  './assets/startup-bg.jpg'
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home.js'
 import TokenScreen from './pages/TokenScreen';

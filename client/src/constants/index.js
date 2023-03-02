@@ -1,19 +1,19 @@
-import { createCampaign, dashboard, logout, payment, profile, withdraw } from '../assets';
+import { createCampaign, dashboard, logout, payment, profile, withdraw, glogo } from '../assets';
 
 export const navlinks = [
+  // {
+  //   name: 'dashboard',
+  //   imgUrl: dashboard,
+  //   link: '/',
+  // },
   {
-    name: 'dashboard',
-    imgUrl: dashboard,
-    link: '/',
-  },
-  {
-    name: 'token',
+    name: 'ERC20',
     imgUrl: payment,
     link: '/token',
 
   },
   {
-    name: 'crowdsale',
+    name: 'IDO',
     imgUrl: withdraw,
     link: '/crowdsale',
   },
