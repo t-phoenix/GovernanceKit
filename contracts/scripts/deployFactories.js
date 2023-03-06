@@ -15,10 +15,10 @@ async function main() {
     console.log("Account balance:", (await deployer.getBalance()).toString());
 
 
-    // const TOKEN_FACTORY = await hre.ethers.getContractFactory('TokenFactory');
-    // const token_factory = await TOKEN_FACTORY.deploy()
+    const TOKEN_FACTORY = await hre.ethers.getContractFactory('TokenFactory');
+    const token_factory = await TOKEN_FACTORY.deploy()
 
-    // console.log("TOKEN FACTORY: ", token_factory.address);
+    console.log("TOKEN FACTORY: ", token_factory.address);
 
 
     // const CROWDSALE_FACTORY = await hre.ethers.getContractFactory('CrowdsaleFactory');
@@ -33,10 +33,10 @@ async function main() {
     // console.log("Timelock Factory: ", timelock_factory.address);
 
 
-    const GOVERNOR_FACTORY = await hre.ethers.getContractFactory('GovernorFactory');
-    const governor_factory = await GOVERNOR_FACTORY.deploy()
+    // const GOVERNOR_FACTORY = await hre.ethers.getContractFactory('GovernorFactory');
+    // const governor_factory = await GOVERNOR_FACTORY.deploy()
 
-    console.log("Governor Factory: ", governor_factory.address);
+    // console.log("Governor Factory: ", governor_factory.address);
 
 
 

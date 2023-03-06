@@ -3,8 +3,9 @@
 const hre = require('hardhat');
 
 describe('TokenFactory', async function(){
-    const tokenFactory = await ethers.getContractFactory("TokenFactory");
-    const factoryAddr = "0x9BbBDc65F4E445861A7398ea3441A8F29A39220f";
+    // const tokenFactory = await ethers.getContractFactory("TokenFactory");
+    // const factoryAddr = "0x9BbBDc65F4E445861A7398ea3441A8F29A39220f"; ftm-testnet
+    const factoryAddr = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
     const [deployer] = await hre.ethers.getSigners();
     const TOKEN_NAME = "Equistart";
     const TOKEN_SYMBOL = "EQST";

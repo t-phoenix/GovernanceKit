@@ -16,7 +16,7 @@ export default function Navbar(){
             {/* <Link to="/">
                 <Icon styles="w-[52px] h-[52px] bg-[#2c2f32]" imgUrl={logo} />
             </Link> */}
-            <ConnectWallet accentColor="#ffffff" />
+            <ConnectWallet accentColor="cyan"  colorMode="light"/>
         </div>
     )
 }
